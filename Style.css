@@ -1,4 +1,63 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
-    background-color: aqua;
-    margin: auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+section{
+    margin: 40px auto;
+    gap: 30px;
+    max-width: 300px;
+}
+
+.common-container{
+    border-radius: 10px;
+    height: 100%;
+    justify-content: space-evenly;
+
+}
+
+h4,p{
+    margin: 0;;
+}
+
+.btn{
+    width: 120px;
+    padding: 16px  ;
+    background-color: rgb(55, 130, 211);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.btn:hover{
+    background-color: rgb(27, 90, 57);
+}
+
+#hero{
+    text-align: center;
+}
+
+#hero h2,
+ #hero p{
+    color: rgb(85, 85, 85);
+    font-weight: 500;
+}
+
+.hero-container{
+    width:  200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 40px auto;
+}
+
+#hero img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
